@@ -1,0 +1,97 @@
+html, body{
+	margin: 0;
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*PARALLAX - HIỆU ỨNG PARALLAX*/
+
+.parallax{
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*HEADER - PHẦN ĐẦU*/
+
+.navigation{
+	position: fixed;
+	background-color: #191919;
+	width: 100%;
+	z-index: 1;
+}
+
+.navigation #logo{
+	float: left;
+	color: white;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.navigation ul{
+	position: relative;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+.navigation ul li{
+	position: relative;
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	color:white;
+}
+
+#parallax1{
+	background-image: url("IMAGES/header-background.jpg");
+	min-height: 900px;
+}
+
+.homepage{
+	position: absolute;
+	border: solid 1px white;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 40px;
+	top: 40%;
+	left: 50%;
+	padding: 40px;
+	margin-top: -100px;
+	margin-left: -450px;
+}
+
+.homepage:after{
+	position: absolute;
+	background: #FFFFFF;
+	content: '';
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	top: 100%;
+	margin-left: -25px;
+	margin-top: -25px;
+	transform: rotate(45deg);
+}
+
+/*CONTENTS - PHẦN NỘI DUNG*/
+
+.content{
+	border-top: solid 10px black;
+	background: url(IMAGES/pattern.jpg);
+}
+
+.section1{
+	padding:100px 60px;
+}
+
+#parallax2{
+	background-image: url("IMAGES/world-map.jpeg");
+	min-height: 400px;
+	border-top: solid 10px black;
+}
